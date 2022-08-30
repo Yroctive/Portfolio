@@ -1,0 +1,184 @@
+body{
+	background-color: #fff;
+	font-family: sans-serif;
+}
+
+header.container{
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+.flexone{
+	margin-left: 0px;
+}
+
+
+
+h2{
+	display: inline-block;
+	margin: 10px 0px;
+
+}
+
+#one{
+	color: #0a66c2;
+	font-weight: 600;
+}
+
+#two{
+	background-color: #0a66c2;
+	color: #fff;
+	border-radius: 3px;
+	font-weight: 600;
+}
+
+
+.flextwo{
+	margin-top: 12px;
+	margin-bottom: 8px;
+	margin-right: 10px;
+}
+
+.flextwo a{
+	margin: 10px 10px;
+	text-decoration: none;
+	color: #000;
+	/*font-weight: 600;*/
+}
+
+
+#three{
+	color: #0a66c2;;
+	padding: 10px 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0072b1;
+	border-radius: 20px;
+	/*font-size: 1.6rem;*/
+    font-weight: 600;
+
+}
+
+#three:hover{
+	background-color: lightblue;
+	box-shadow: inset 1px 1px;
+}
+
+#four{
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+
+
+#four:hover{
+	background-color: lightgrey;
+}
+
+.display-5{
+	color: rgba(143, 88, 73, 1);
+	font-size: 56px;
+    /*font-weight: 200px;*/
+}
+
+h1 .display-5{
+	margin-bottom: 30px;
+}
+
+.list{
+	/*width: 100px;*/
+	display: flex;
+	justify-content: space-between;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	border-radius: 10px;
+}
+
+
+ul{
+	list-style: none;
+	width: 400px;
+}
+
+li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+li a{
+	text-decoration: none;
+	color: #000;
+
+
+}
+
+img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: #000;
+}
+
+h1{
+	font-weight: 200px;
+}
+
+h1.fw-lighter{
+	font-size: 56px;
+}
+
+.fw-bold{
+	font-size: 48px;
+	color: rgba(0, 0, 0, 0.9);
+	/*font-size: 48px;*/
+    font-weight: 0px;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+/*.btn-secondary{
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 20px;
+    line-height: 1.4;
+    font-weight: 100px;
+    margin-bottom: 10px;
+}*/
+
+.rounded-pill{
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 16px;
+    /*line-height: 1.4;*/
+    font-weight: 200px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+#sectiontwo{
+	background-color: #eee;
+}
+
+.nobg{
+	background-color: #eee;
+}
+
+.col-lg-6{
+	margin-top: 0px;
+}
+
+#postj{
+	color: rgba(178, 64, 32, 1);
+}
+
+.unique{
+	background-color: rgba(241, 236, 229, 0.6);
+}

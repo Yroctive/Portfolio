@@ -1,0 +1,117 @@
+
+body{
+	background-color: #fffbae;
+}
+
+#title{
+	text-align: center;
+	color: #7d66f2;
+}
+
+#main{
+	background-color: #fff;
+	align-content: center;
+}
+
+#img-div{
+	background-color: #fffbae;
+	text-align: center;
+	padding: 10px;
+	margin: 0px;
+}
+
+img{
+	display: block;
+}
+
+#image{
+	/*padding: 50px;*/
+	margin: auto;
+	position: relative;
+	background-color: white;
+	max-width: 100%;
+	height: auto;
+}
+
+#img-caption{
+background-color: #fffbae;
+font-weight: bolder;
+font-size: 20px;
+margin-bottom: 0px;
+color: #ff2e2e;
+}
+
+.tribute-head{
+	font-family: monospace;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+
+#tribute-info{
+	background-color: ivory;
+}
+.timeline{
+	margin: auto;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+@media(max-width: 600px){
+	.timeline{
+	margin: auto;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 0px 5px 0px 5px;
+	}
+}
+
+@media(min-width: 600px){
+	.timeline{
+	margin: auto;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 0px 100px 0px 100px;
+	}
+}
+
+@media(min-width: 768px){
+	.timeline{
+	margin: auto;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 0px 200px 0px 200px;
+	}
+}
+
+@media(min-width: 992px){
+	.timeline{
+	margin: auto;
+	font-size: 20px;
+	font-family: cursive;
+	padding: 0px 300px 0px 300px;
+	}
+}
+
+blockquote{
+	padding: 20px;
+	background-color: ivory;
+	text-align: center;
+	color: #680fcf;
+	margin-bottom: 0px;
+}
+
+footer{
+	background-color: lightgrey;
+	text-align: center;
+	padding: 15px;
+	font-size: 20px;
+}
+
+#tribute-link{
+	background-color: lightgrey;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 20px;
+}

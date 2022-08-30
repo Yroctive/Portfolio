@@ -1,0 +1,122 @@
+body{
+	background: oldlace;
+	background-color: mintcream;
+	background-image: url("../bgimages/ofiice.jpg");
+	width: 100%;
+	height: auto;
+	}
+
+.head{
+	background-color: #b5d0f5;
+	padding: 20px;
+	text-align: center;
+	background-image: url(bgimages/oldman.jpg);
+}
+
+#survey-form{
+	background-color: darkblue;
+	opacity: 0.9;
+	color: #fff;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+@media(max-width: 600px){
+	#survey-form{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 20px;
+	font-family: cursive;
+	/*padding: 0px 30px 0px 5px;*/
+	}
+}
+
+@media(min-width: 600px){
+	#survey-form{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 20px;
+	font-family: cursive;
+	/*padding: 0px 100px 0px 100px;*/
+	}
+}
+
+@media(min-width: 768px){
+	#survey-form{
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 20px;
+	font-family: cursive;
+	/*padding: 0px 200px 0px 200px;*/
+	}
+}
+
+@media(min-width: 992px){
+	#survey-form{
+	margin-left: 300px;
+	margin-right: 300px;
+	font-size: 20px;
+	font-family: cursive;
+	/*padding: 0px 300px 0px 300px;*/
+	}
+}
+
+
+.form-family{
+	padding: 10px 0px 10px 0px; 
+	font-family: verdana,sans-serif;
+}
+
+.width{
+	width: 100%;
+}
+
+label{
+	padding-bottom: 5px;
+
+}
+
+select{
+	padding-top: 10px;
+	/*margin-top: 10px;*/
+	padding-bottom: 10px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+p{
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+input{
+	padding-top: 10px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+input.radio{
+	margin-right: 10px;
+}
+
+/*label.community{
+	padding-top: 10px;
+}*/
+textarea{
+	padding-bottom: 50px;
+	width: 100%;
+	border-width: 1px;
+}
+
+button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	border-radius: 3px;
+	background-color: burlywood;
+	font-weight: bolder;
+	border-width: 1px;
+}

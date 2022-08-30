@@ -1,0 +1,72 @@
+/*body{
+    background-image: url("../bgimages/boy.jpg")
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 90px;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+}
+
+#increment-btn{
+    background-color: darkred;
+    align-content: center;
+}
+
+#increment-btn:hover{
+    background-color: green;
+}
+
+#save-btn{
+    background-color: darkred;
+    align-content: center;
+}*/
+
+body{
+    font-family: trebuchet monospace;
+    background-image: url("../bgimages/table.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover; 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+    font-style: italic;
+    font-weight: bold;
+}
+
+button{
+    border: none;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    background-color: goldenrod;
+    color: green;
+    font-weight: bold;
+}

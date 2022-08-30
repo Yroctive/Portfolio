@@ -1,0 +1,35 @@
+body{
+	background-color: orange;
+
+}
+
+.container{
+	background-color: burlywood;
+	display: flex;
+	justify-content: space-between;
+}
+
+.flexone{
+	background-color: burlywood;
+	text-decoration: none;
+	color: #000;
+}
+
+.flextwo a{
+	background-color: pink;
+	text-decoration: none;
+	color: #000;
+}
+
+.flexone{
+	flex-grow: 1;
+
+}
+.flextwo{
+	flex-grow: 8;
+
+}
+
+.flexthree{
+	flex-grow: 2;
+}
