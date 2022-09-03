@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/survey.css">
+  </head>
+  <body>
+    <div class="head" class="responsive">
+    <h1 id="title">Pluginette Survey Form</h1>
+    <p id="description">Thank you for taking the time to let us know how to serve you better
+    </p>
+    </div>
+    <form id="survey-form">
+      <div class="form-family">
+        <label for="name" id="name-label">
+          Name
+        </label><br>
+        <input class="width" type="text" name="name_1" id="name" placeholder="Enter your Fullname" required>
+      </div>
+
+      <div class="form-family">
+        <label for="email" id="email-label">
+          Email
+        </label><br>
+        <input class="width" type="email" name="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-family">
+        <label for="age" id="age-label">
+          Age
+        </label><br>
+        <input class="width" type="number" name="age" id="age" required placeholder="Your age">
+      </div>
+
+      <div class="form-family">
+        <label for="number" id="number-label">
+          Number
+        </label><br>
+        <input class="width" type="number" name="number" id="number" max="20" min="9" placeholder="Your number" required>
+      </div>
+
+      <div class="form-family">
+        <p>What's your role as a product user?</p>
+        <select id="dropdown" name="user-role">
+          <option value="none">Select your role</option>
+          <option value="blog">Blogger</option>
+          <option value="coach">Sports Coach</option>
+          <option value="gym">Gym Instructor</option>
+          <option value="clinic">Medical Institution</option>
+          <option value="school">College Intitution Admin</option>
+        </select>
+      </div>
+
+      <div class="form-family">
+        <p>What type of user are you?</p>
+        <label for="user">
+          <input type="radio" name="user" value="developer" class="radio">Developer
+        </label><br>
+        <label for="user">
+          <input type="radio" name="user" value="end-product-user" class="radio">End-Product User
+        </label>
+      </div>
+
+      <div class="form-family">
+        <p>What do you like about our community?</p>
+        <label for="likness" class="community">
+          <input type="checkbox" name="likness" value="projetcs" class="radio">Projects
+        </label><br>
+        <label for="likness" class="community">
+          <input type="checkbox" name="likness" value="community" class="radio">Community
+        </label><br>
+        <label for="likness" class="community">
+          <input type="checkbox" name="likness" value="open-source" class="radio">Open Source
+        </label><br>
+        <label for="likness" class="community">
+          <input type="checkbox" name="likness" value="accountability" class="radio">Accountabilty
+        </label><br>
+        <label for="likness" class="community">
+          <input type="checkbox" name="likness" value="qick-ticket-response" class="radio">Quick ticket response
+        </label>
+      </div>
+
+      <div class="form-family">
+        <p>Drop your comment or suggestion here!</p>
+        <textarea name="comment" value="comment" placeholder="Any comment or suggestion here..." id="comment"></textarea> 
+      </div>
+
+      <div class="form-family">
+        <button type="submit" id="submit" value="submit"><strong>Submit</strong></button>
+      </div>
+    </form>
+  </body>
+  </html>

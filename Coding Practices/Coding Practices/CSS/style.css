@@ -1,0 +1,33 @@
+body{
+	position: absolute;
+}
+
+
+ul{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.one{
+	display: inline;
+}
+
+.two{
+	display: inline-block;
+}
+
+#one{
+	position: absolute;
+	right: 20px;
+}
+
+#two{
+	position: absolute;
+	right: 70px;
+}
+
+#three{
+	position: absolute;
+	right: 170px;
+}
+
